@@ -13,6 +13,11 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'bootsnap', '>= 1.4.2', require: false
 
+gem 'bootstrap', '~> 4.1.3'
+gem 'jquery-rails'
+
+gem 'rails-i18n'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
