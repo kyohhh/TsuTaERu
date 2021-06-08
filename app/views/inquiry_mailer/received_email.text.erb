@@ -1,3 +1,11 @@
-Inquiry#received_email
+===============================
+<%= @user.name %>さま
+===============================
 
-<%= @greeting %>, find me in app/views/inquiry_mailer/received_email.text.erb
+この度は<%= @user.name %>さまに日頃からの感謝についてお知らせします。
+
+【<%= @user.name %>さまとの関係】
+<%= @user.relationship%>
+
+【感謝の言葉】
+<%= @user.content %>
