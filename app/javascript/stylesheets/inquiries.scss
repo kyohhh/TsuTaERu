@@ -1,6 +1,6 @@
 
-// topPage, confirmPage
-.topPage, .confirmPage {
+// topPage, confirmPage, thanksPage
+.topPage, .confirmPage, .thanksPage  {
   margin: 100px 0;
   .btn-primary, .btn-info {
     width: 200px;
@@ -25,5 +25,13 @@
   }
   .btn-info {
     margin-right: 20px;
+  }
+}
+
+// thanksPage
+.thanksPage {
+  text-align: center;
+  &_message {
+    font-size: 30px;
   }
 }
